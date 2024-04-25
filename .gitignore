@@ -1,0 +1,56 @@
+# Generated files by Cargo
+/target/
+
+# Remove Cargo.lock from gitignore if creating an executable, keep it for libraries
+Cargo.lock
+
+# Rust debug symbols
+**/*.pdb
+
+# Compiled static libraries
+**/*.a
+**/*.lib
+
+# Compiled objects
+**/*.o
+**/*.rlib
+
+# Generated files
+**/*.rs.bk
+
+# Error files
+**/*.err
+
+# Dependency directories
+**/.cargo/
+
+# Rustdoc documentation directory
+/doc/
+
+# Save IDE files and directories for JetBrains Rust
+.idea/
+*.iml
+
+# Save system-specific files such as editor configurations and build scripts
+/.vscode/
+**/*.vs
+**/*.sublime-*
+
+# Operating System generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build scripts
+build/
+
+# Ignore all log files and temp files.
+**/*.log
+**/*.tmp
+
+# Ignore node_modules folder if using WASM or other Node.js interop
+node_modules/
